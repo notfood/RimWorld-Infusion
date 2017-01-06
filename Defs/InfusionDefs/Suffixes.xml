@@ -59,27 +59,27 @@
     </allowance>
     <stats>
       <li>
-        <key>AccuracyTouch</key>
+        <key>SwayFactor</key>
+        <value>
+          <multiplier>0.97</multiplier>
+        </value>
+      </li>
+      <li>
+        <key>AimEfficiency</key>
         <value>
           <multiplier>1.03</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyShort</key>
+        <key>ShotSpread</key>
         <value>
-          <multiplier>1.03</multiplier>
+          <multiplier>0.97</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyMedium</key>
+        <key>ReloadSpeed</key>
         <value>
-          <multiplier>1.03</multiplier>
-        </value>
-      </li>
-      <li>
-        <key>AccuracyLong</key>
-        <value>
-          <multiplier>1.03</multiplier>
+          <multiplier>0.97</multiplier>
         </value>
       </li>
     </stats>
@@ -153,7 +153,7 @@
       <li>
         <key>MentalBreakThreshold</key>
         <value>
-          <offset>-0.1</offset>
+          <offset>-0.3</offset>
         </value>
       </li>
     </stats>
@@ -663,27 +663,21 @@
     </allowance>
     <stats>
       <li>
-        <key>AccuracyTouch</key>
+        <key>SwayFactor</key>
         <value>
           <multiplier>1.1</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyShort</key>
+        <key>AimEfficiency</key>
         <value>
           <multiplier>1.1</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyMedium</key>
+        <key>ShotSpread</key>
         <value>
-          <multiplier>1.1</multiplier>
-        </value>
-      </li>
-      <li>
-        <key>AccuracyLong</key>
-        <value>
-          <multiplier>1.1</multiplier>
+          <multiplier>0.95</multiplier>
         </value>
       </li>
       <li>
@@ -855,27 +849,21 @@
     </allowance>
     <stats>
       <li>
-        <key>AccuracyTouch</key>
+        <key>SwayFactor</key>
         <value>
           <multiplier>1.18</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyShort</key>
+        <key>AimEfficiency</key>
         <value>
-          <multiplier>1.18</multiplier>
+          <multiplier>1.13</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyMedium</key>
+        <key>ShotSpread</key>
         <value>
-          <multiplier>1.18</multiplier>
-        </value>
-      </li>
-      <li>
-        <key>AccuracyLong</key>
-        <value>
-          <multiplier>1.18</multiplier>
+          <multiplier>0.96</multiplier>
         </value>
       </li>
       <li>
@@ -1075,27 +1063,27 @@
     </allowance>
     <stats>
       <li>
-        <key>AccuracyTouch</key>
+        <key>SwayFactor</key>
         <value>
-          <multiplier>1.18</multiplier>
+          <multiplier>1.13</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyShort</key>
+        <key>AimEfficiency</key>
         <value>
-          <multiplier>1.18</multiplier>
+          <multiplier>1.12</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyMedium</key>
+        <key>ShotSpread</key>
         <value>
-          <multiplier>1.18</multiplier>
+          <multiplier>1.03</multiplier>
         </value>
       </li>
       <li>
-        <key>AccuracyLong</key>
+        <key>ReloadSpeed</key>
         <value>
-          <multiplier>1.18</multiplier>
+          <multiplier>0.82</multiplier>
         </value>
       </li>
       <li>
