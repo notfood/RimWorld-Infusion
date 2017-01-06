@@ -106,7 +106,8 @@ namespace Infused
 			string thingLabel;
 			if ( isStuffed && thing.Stuff != null )
 			{
-				thingLabel = thing.Stuff.LabelAsStuff + " " + thing.def.label;
+				//thingLabel = thing.Stuff.LabelAsStuff + " " + thing.def.label;
+				thingLabel = ResourceBank.StringInfusionLabel.Translate(thing.Stuff.LabelAsStuff, thing.def.label);
 			}
 			else
 			{
