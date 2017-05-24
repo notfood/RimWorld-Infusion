@@ -305,7 +305,7 @@
     </allowance>
     <stats>
       <li>
-        <key>SurgerySuccessChance</key>
+        <key>MedicalSurgerySuccessChance</key>
         <value>
           <offset>0.02</offset>
         </value>
@@ -317,9 +317,9 @@
         </value>
       </li>
       <li>
-        <key>HarvestFailChance</key>
+        <key>PlantHarvestYield</key>
         <value>
-          <offset>-0.02</offset>
+          <multiplier>1.07</multiplier>
         </value>
       </li>
       <li>

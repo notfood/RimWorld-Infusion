@@ -630,13 +630,13 @@
         </value>
       </li>
       <li>
-        <key>SurgerySuccessChance</key>
+        <key>MedicalSurgerySuccessChance</key>
         <value>
           <offset>0.02</offset>
         </value>
       </li>
       <li>
-        <key>HealingQuality</key>
+        <key>MedicalTendQuality</key>
         <value>
           <multiplier>1.03</multiplier>
         </value>
@@ -727,13 +727,13 @@
     </allowance>
     <stats>
       <li>
-        <key>SurgerySuccessChance</key>
+        <key>MedicalSurgerySuccessChance</key>
         <value>
           <multiplier>1.07</multiplier>
         </value>
       </li>
       <li>
-        <key>HealingQuality</key>
+        <key>MedicalTendQuality</key>
         <value>
           <multiplier>1.07</multiplier>
         </value>
@@ -886,9 +886,9 @@
         </value>
       </li>
       <li>
-        <key>HarvestFailChance</key>
+        <key>PlantHarvestYield</key>
         <value>
-          <offset>-0.02</offset>
+          <multiplier>1.07</multiplier>
         </value>
       </li>
     </stats>
