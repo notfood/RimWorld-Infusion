@@ -84,8 +84,6 @@ namespace Infused
 
 				statDef.parts.Add (new StatPart_InfusionModifier(statDef));
 			}
-
-			ModInjector.Inject ();
 		}
 
 		public static Def Named( string defName )
