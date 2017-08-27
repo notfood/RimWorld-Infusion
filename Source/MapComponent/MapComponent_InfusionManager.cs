@@ -17,26 +17,24 @@ namespace Infused
             InfusionLabelManager.ReInit();
         }
 
-        public override void MapComponentOnGUI()
-        {
-            Draw();
-        }
-
         //Draw infusion label on map
-        private static void Draw()
+        public override void MapComponentOnGUI()
         {
             if (Find.CameraDriver.CurrentZoom != CameraZoomRange.Closest) return;
             if (InfusionLabelManager.Drawee.Count == 0)
                 return;
 
-            foreach (var current in InfusionLabelManager.Drawee)
-            {
-				// skip fogged
-				if (Find.VisibleMap.fogGrid.IsFogged (current.parent.Position)) {
-					continue;
-				}
+            foreach (var current in InfusionLabelManager.Drawee) {
+                if (current.parent.Map != map) {
+                    continue;
+                }
 
-				GenMapUI.DrawThingLabel( GenMapUI.LabelDrawPosFor(current.parent, -0.66f), current.InfusedLabel, current.InfusedLabelColor );
+                // skip fogged
+                if (map.fogGrid.IsFogged (current.parent.Position)) {
+                    continue;
+                }
+
+                GenMapUI.DrawThingLabel (GenMapUI.LabelDrawPosFor (current.parent, -0.66f), current.InfusedLabel, current.InfusedLabelColor);
             }
         }
     }
