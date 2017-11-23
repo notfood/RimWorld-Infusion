@@ -30,7 +30,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.97</multiplier>
         </value>
@@ -64,7 +64,7 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>2</offset>
         </value>
@@ -250,7 +250,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.97</multiplier>
         </value>
@@ -272,7 +272,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>2</offset>
         </value>
@@ -380,13 +380,13 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.97</multiplier>
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>2</offset>
         </value>
@@ -424,7 +424,7 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <multiplier>1.05</multiplier>
           <offset>2</offset>
@@ -652,7 +652,7 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.93</multiplier>
         </value>
@@ -664,7 +664,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>3</offset>
         </value>
@@ -841,7 +841,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.95</multiplier>
         </value>
@@ -902,15 +902,9 @@
     </allowance>
     <stats>
       <li>
-        <key>StonecuttingSpeed</key>
-        <value>
-          <multiplier>1.07</multiplier>
-        </value>
-      </li>
-      <li>
         <key>SculptingSpeed</key>
         <value>
-          <multiplier>1.07</multiplier>
+          <multiplier>1.14</multiplier>
         </value>
       </li>
     </stats>
@@ -984,7 +978,7 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>5</offset>
           <multiplier>1.07</multiplier>
@@ -1175,7 +1169,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>2</offset>
         </value>
@@ -1228,7 +1222,7 @@
     <labelShort>swft</labelShort>
     <stats>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.82</multiplier>
         </value>
@@ -1280,7 +1274,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <multiplier>0.5</multiplier>
         </value>
@@ -1377,7 +1371,7 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <multiplier>1.18</multiplier>
           <offset>7</offset>
@@ -1548,7 +1542,7 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <multiplier>1.18</multiplier>
           <offset>7</offset>
@@ -1677,7 +1671,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.82</multiplier>
         </value>
@@ -1853,13 +1847,13 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_Cooldown</key>
+        <key>MeleeWeapon_CooldownMultiplier</key>
         <value>
           <multiplier>0.82</multiplier>
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <multiplier>1.24</multiplier>
           <offset>10</offset>

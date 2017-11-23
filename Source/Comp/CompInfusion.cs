@@ -79,7 +79,7 @@ namespace Infused
 				msg.Append( parent.Stuff.LabelAsStuff + " " );
 			}
 			msg.Append( parent.def.label );
-			Messages.Message( ResourceBank.StringInfusionMessage.Translate( msg ), new RimWorld.Planet.GlobalTargetInfo(parent), MessageSound.Silent );
+            Messages.Message( ResourceBank.StringInfusionMessage.Translate( msg ), new RimWorld.Planet.GlobalTargetInfo(parent), MessageTypeDefOf.SilentInput );
 			InfusionSound.PlayOneShotOnCamera();
 
 			MoteMaker.ThrowText( parent.Position.ToVector3Shifted(), this.parent.Map, ResourceBank.StringInfused,

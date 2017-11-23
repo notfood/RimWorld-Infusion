@@ -27,7 +27,7 @@
     </allowance>
     <stats>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>1</offset>
         </value>
@@ -647,7 +647,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>5</offset>
         </value>
@@ -839,7 +839,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>7</offset>
         </value>
@@ -1059,7 +1059,7 @@
         </value>
       </li>
       <li>
-        <key>MeleeWeapon_DamageAmount</key>
+        <key>MeleeWeapon_AverageDPS</key>
         <value>
           <offset>10</offset>
         </value>
