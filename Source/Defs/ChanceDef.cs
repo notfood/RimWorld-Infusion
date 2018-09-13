@@ -21,7 +21,7 @@ namespace Infused
 	public class TechLevelRange
 	{
 		public TechLevel min = TechLevel.Undefined;
-		public TechLevel max = TechLevel.Transcendent;
+		public TechLevel max = TechLevel.Archotech;
 	}
 
 	public class ChanceDef : Verse.Def
@@ -43,16 +43,12 @@ namespace Infused
 			{
 			case QualityCategory.Awful:
 				return chances.awful;
-			case QualityCategory.Shoddy:
-				return chances.shoddy;
 			case QualityCategory.Poor:
 				return chances.poor;
 			case QualityCategory.Normal:
 				return chances.normal;
 			case QualityCategory.Good:
 				return chances.good;
-			case QualityCategory.Superior:
-				return chances.superior;
 			case QualityCategory.Excellent:
 				return chances.excellent;
 			case QualityCategory.Masterwork:

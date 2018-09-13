@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\cloud\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_Infused.-848354641.00" t="ExcludeRecursive" />
+    <e p="H:\SteamSSD\steamapps\common\RimWorld\Mods\RimWorld-Infused-master\Assemblies" t="ExcludeRecursive" />
+    <e p="H:\SteamSSD\steamapps\common\RimWorld\Mods\RimWorld-Infused-master\Source" t="IncludeRecursive">
+      <e p="Comp" t="Include">
+        <e p="CompInfusion.cs" t="Include" />
+      </e>
+      <e p="Defs" t="Include">
+        <e p="ChanceDef.cs" t="Include" />
+        <e p="Def.cs" t="Include" />
+      </e>
+      <e p="Gens" t="Include">
+        <e p="GenInfusion.cs" t="Include" />
+        <e p="GenInfusionColor.cs" t="Include" />
+        <e p="GenInfusionText.cs" t="Include" />
+        <e p="MathUtility.cs" t="Include" />
+      </e>
+      <e p="Infused.csproj" t="IncludeRecursive" />
+      <e p="Infused.sln" t="IncludeFlat" />
+      <e p="InfusionSet.cs" t="Include" />
+      <e p="MapComponent" t="Include">
+        <e p="InfusionLabelManager.cs" t="Include" />
+        <e p="MapComponent_InfusionManager.cs" t="Include" />
+      </e>
+      <e p="ModInitializers" t="Include">
+        <e p="CompQualityPatch.cs" t="Include" />
+        <e p="InfusedMod.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+      <e p="ResourceBank.cs" t="Include" />
+      <e p="StatParts" t="Include">
+        <e p="StatPart_InfusionModifier.cs" t="Include" />
+      </e>
+      <e p="UI" t="Include">
+        <e p="ITab_Infusion.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

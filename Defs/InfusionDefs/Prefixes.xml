@@ -795,6 +795,12 @@
           <multiplier>1.07</multiplier>
         </value>
       </li>
+      <li>
+        <key>HuntingStealth</key>
+        <value>
+          <multiplier>2.0</multiplier>
+        </value>
+      </li>
     </stats>
   </Infused.Def>
   <Infused.Def ParentName="PrefixRare">
@@ -813,7 +819,7 @@
         </value>
       </li>
       <li>
-        <key>BrewingSpeed</key>
+        <key>DrugCookingSpeed</key>
         <value>
           <multiplier>1.07</multiplier>
         </value>
