@@ -11,11 +11,9 @@
         </match>
         <chances>
             <awful>0.08</awful>
-            <shoddy>0.08</shoddy>
             <poor>0.08</poor>
             <normal>0.1</normal>
             <good>0.2</good>
-            <superior>0.33</superior>
             <excellent>0.45</excellent>
             <masterwork>0.67</masterwork>
             <legendary>0.88</legendary>
@@ -37,11 +35,9 @@
         </techLevel>
         <chances>
             <awful>0.05</awful>
-            <shoddy>0.05</shoddy>
             <poor>0.05</poor>
             <normal>0.07</normal>
             <good>0.1</good>
-            <superior>0.15</superior>
             <excellent>0.25</excellent>
             <masterwork>0.40</masterwork>
             <legendary>0.50</legendary>

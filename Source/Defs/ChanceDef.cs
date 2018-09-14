@@ -1,6 +1,4 @@
-﻿using System;
-
-using RimWorld;
+﻿using RimWorld;
 using Verse;
 
 namespace Infused
@@ -8,11 +6,9 @@ namespace Infused
 	public class QualityChances
 	{
 		public float awful;
-		public float shoddy;
 		public float poor;
 		public float normal;
 		public float good;
-		public float superior;
 		public float excellent;
 		public float masterwork;
 		public float legendary;
@@ -21,7 +17,7 @@ namespace Infused
 	public class TechLevelRange
 	{
 		public TechLevel min = TechLevel.Undefined;
-		public TechLevel max = TechLevel.Transcendent;
+		public TechLevel max = TechLevel.Ultra;
 	}
 
 	public class ChanceDef : Verse.Def
@@ -43,16 +39,12 @@ namespace Infused
 			{
 			case QualityCategory.Awful:
 				return chances.awful;
-			case QualityCategory.Shoddy:
-				return chances.shoddy;
 			case QualityCategory.Poor:
 				return chances.poor;
 			case QualityCategory.Normal:
 				return chances.normal;
 			case QualityCategory.Good:
 				return chances.good;
-			case QualityCategory.Superior:
-				return chances.superior;
 			case QualityCategory.Excellent:
 				return chances.excellent;
 			case QualityCategory.Masterwork:
@@ -68,7 +60,7 @@ namespace Infused
 		{
 			base.ResolveReferences ();
 
-			this.match.ResolveReferences ();
+			match.ResolveReferences ();
 		}
 	}
 }

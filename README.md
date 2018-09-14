@@ -1,6 +1,6 @@
 # RimWorld-Infused
 
-[![Version](https://img.shields.io/badge/Rimworld-A17-green.svg)](http://rimworldgame.com/)
+[![Version](https://img.shields.io/badge/Rimworld-B19-green.svg)](http://rimworldgame.com/)
 [![License](https://img.shields.io/badge/license-Custom-blue.svg)](https://ludeon.com/forums/index.php?topic=11171.msg111243#msg111243)
 
 A unique way to make unique items for your special colonists: Randomly enchants equipment.
